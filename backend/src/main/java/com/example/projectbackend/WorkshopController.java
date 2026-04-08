@@ -12,7 +12,7 @@ import jakarta.validation.Valid;
 import java.util.*;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5175", allowedHeaders = "*", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE})
+@CrossOrigin(origins = "*", allowedHeaders = "*", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE})
 @RequestMapping("/api")
 public class WorkshopController {
 
